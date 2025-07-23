@@ -1,59 +1,38 @@
-<h1>Arduino Lab Projects</h1>
+<h1>Arduino Lab Projects – Bluetooth Serial Communication</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+This summer lab project showcases a **Bluetooth-based serial communication system** using Arduino. The goal was to enable seamless wireless data transmission between an Arduino microcontroller and a mobile device or PC via Bluetooth (HC-05 module). The system was **first simulated using Proteus** to verify serial communication flow, baud rate settings, and response triggers before implementing it with actual hardware.
+
 <br />
 
+The project demonstrates how embedded systems can wirelessly transmit sensor data or respond to control commands using serial data over Bluetooth, making it applicable for IoT and remote monitoring scenarios.
 
-<h2>Languages and Utilities Used</h2>
+<h2>Hardware Components Used</h2>
 
-- <b>Arduino Board</b> 
-- <b>Tester Board</b>
+- <b>Arduino UNO</b>  
+- <b>Bluetooth Module HC-05</b>  
+- <b>LEDs & Resistors</b>  
+- <b>Breadboard & Jumper Wires</b>
 
-<h2>Programming Languages </h2>
+<h2>Software Tools</h2>
 
-- <b>Arduino IDE</b> (21H2)
-- <b>MATLAB</b> (21H2)
+- <b>Arduino IDE</b>  
+- <b>Proteus (Simulation)</b>  
+- <b>Serial Bluetooth Terminal (Android App)</b>
 
-<h2>Program walk-through:</h2>
+<h2>Program Walk-Through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+Proteus Simulation Setup: <br/>
+<img src="https://i.imgur.com/YourSimImageHere.png" height="80%" width="80%" alt="Bluetooth Simulation"/>
+<br /><br />
 
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
+Sending Commands from Mobile App: <br/>
+<img src="https://i.imgur.com/YourMobileAppImageHere.png" height="80%" width="80%" alt="Bluetooth App"/>
+<br /><br />
+
+Receiving and Executing Serial Data: <br/>
+<img src="https://i.imgur.com/YourArduinoRunImageHere.png" height="80%" width="80%" alt="Arduino Execution"/>
+</p>
