@@ -26,7 +26,7 @@ The project demonstrates how embedded systems can wirelessly transmit sensor dat
 
 <p align="center">
 Proteus Simulation Setup: <br/>
-<img src="https://https://imgur.com/a/7C1h45b" height="80%" width="80%" alt="Bluetooth Simulation"/>
+<img src="https://imgur.com/a/7C1h45b" height="80%" width="80%" alt="Bluetooth Simulation"/>
 <br /><br />
 
 Sending Commands from Mobile App: <br/>
